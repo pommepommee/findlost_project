@@ -1,0 +1,134 @@
+/*pour le menu*/
+.nav-link {
+  color: #ffffff;
+}
+
+#right-side-button{
+  float: right;
+}
+/*fin menu*/
+
+/*pour home, l'image du fond*/
+.img-fluid {
+  width: 100%;
+}
+
+.row{
+  text-align: left;
+}
+
+/*pour home les images et boutons*/
+.view{
+  background-image: url('/img/fond.png');
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
+
+}
+
+#button_lost {
+  width: 300px;
+  height: 300px;
+  display : block;
+  background: url("/img/perdu.png") no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+#button_lost:hover {
+  width: 300px;
+  height: 300px;
+  display : block;
+  background: url("/img/perdu.png") no-repeat;
+  background-size: cover;
+  background-color:rgba(208, 122, 155, 0.60)
+}
+
+#button_find {
+  width: 300px;
+  height: 300px;
+  display : block;
+  background: url("/img/trouve.png") no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+#button_find:hover {
+  width: 300px;
+  height: 300px;
+  display : block;
+  background: url("/img/trouve.png") no-repeat;
+  background-size: cover;
+  background-color:rgba(81, 190, 204, 0.60)
+}
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #515656;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
