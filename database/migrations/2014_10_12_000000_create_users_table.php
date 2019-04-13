@@ -22,11 +22,7 @@ class CreateUsersTable extends Migration
             $table->decimal('badge')->default(0);
             $table->rememberToken();
             $table->timestamps();
-<<<<<<< HEAD
             $table->boolean('isadmin')->default(false);
-=======
-            $table->boolean('isadmin');
->>>>>>> de031424cf003769a7a607346ae3767555a63683
         });
     }
 

@@ -22,6 +22,7 @@
         <link href="/css/projet.css" rel="stylesheet">
 
         <link rel="logo_placemaker" href="img/logo_placemaker.png">
+
         <link rel="shortcut icon" type="image/ico" href="img/logo_placemaker.png" />
     </head>
     <body>
